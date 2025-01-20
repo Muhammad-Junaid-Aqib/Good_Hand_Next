@@ -1,3 +1,10 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About Me | My Portfolio',
+  description: 'Learn about my experience as a software developer, my technical skills, and professional journey in web development.',
+}
+
 export default function About() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

@@ -1,3 +1,9 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Projects | My Portfolio',
+  description: 'Explore my latest projects and development work. View a collection of web applications built with modern technologies.',
+}
 export default function Projects() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
